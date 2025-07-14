@@ -12,13 +12,17 @@ const app = express()
 // });
 
 app.use(cors({
-    origin: "*", 
+    origin: [
+      "http://localhost:3000/",
+      "http://10.0.2.2:3000/"       
+    ],
     credentials: true,
-    allowedHeaders: ["Content-Type", "Authorization"],
     methods: ["GET", "POST", "PUT", "DELETE"],
-    preflightContinue: true
-}));
+    allowedHeaders: ["Content-Type", "Authorization"]
+  }));
 
+  // Handle OPTIONS preflight requests
+  app.options("*", cors());
 
 
 app.use(express.json())
