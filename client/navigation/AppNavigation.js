@@ -3,7 +3,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import SplashScreen from '../screens/SplashScreen';
 import Onboarding from '../screens/Onboarding';
-import HomeScreen from '../screens/HomeScreen';
+// import HomeScreen from '../screens/HomeScreen';
 import LoginScreen from '../screens/LoginScreen';
 import RegisterScreen from '../screens/RegisterScreen';
 import ForgetPassword from '../screens/ForgetPassword';
@@ -17,6 +17,7 @@ import WeightScreen from '../screens/credentialsPages/WeightScreen';
 import ActivityLevelScreen from '../screens/credentialsPages/ActivityLevelScreen';
 import ExtraData from '../screens/credentialsPages/ExtraData.tsx';
 import AuthContext from '../context/AuthContext';
+import MainTabs from '../MainTabs.tsx'
 
 const Stack = createStackNavigator();
 
@@ -55,7 +56,7 @@ const AppNavigation = () => {
         <Stack.Screen name="SecurityQuestions" component={SecurityQuestions} />
         <Stack.Screen name="NewPassword" component={NewPassword} />
         {/* Main app */}
-        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Home" component={MainTabs} />
       </Stack.Navigator>
     </NavigationContainer>
   );

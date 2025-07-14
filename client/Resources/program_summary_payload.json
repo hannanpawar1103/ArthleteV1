@@ -1,0 +1,442 @@
+{
+    "workout_details": {
+        "program_id": "***",
+        "week": 6,
+        "body_zone": "full",
+        "difficulty_level": "low",
+        "duration": "long"
+    },
+    "user_data": {
+        "age": 30,
+        "gender": "Male"
+    },
+    "session_id": "PzCPpJOoTgkXE72G",
+    "type": "ProgramAssessment",
+    "start_time": "2024-12-24T10:48:27+02:00",
+    "end_time": "2024-12-24T10:55:23+02:00",
+    "total_time": 416.0,
+    "total_score": 30,
+    "exercises": [
+        {
+            "activity_type": "ProgramWorkout",
+            "start_time": "2024-12-24T10:48:27+02:00",
+            "end_time": "2024-12-24T10:49:00+02:00",
+            "exercise_info": {
+                "pretty_name": "",
+                "exercise_id": "JumpingJacks",
+                "total_time": 33,
+                "score_params": {
+                    "score_factor": 0.5,
+                    "type": "reps",
+                    "target_reps": 10,
+                    "target_rom": "null"
+                },
+                "ui_elements": [
+                    "timer",
+                    "repsCounter"
+                ],
+                "instruction_video": "JumpingJacks",
+                "voice_intro": "exerciseIntro_JumpingJacks_30"
+            },
+            "feedback": {
+                "JJArmExtension": 0.0
+            },
+            "total_score": 74.28571,
+            "performance_score": 70.0,
+            "technique_score": 78.57143,
+            "reps_performed": 7,
+            "reps_performed_perfect": 6,
+            "session_id": "15gRuNFXYD2rIqFJ",
+            "user_data": {
+                "age": 30,
+                "gender": "Male"
+            }
+        },
+        {
+            "activity_type": "ProgramWorkout",
+            "start_time": "2024-12-24T10:49:00+02:00",
+            "end_time": "2024-12-24T10:49:44+02:00",
+            "exercise_info": {
+                "pretty_name": "",
+                "exercise_id": "SkaterHops",
+                "total_time": 44,
+                "score_params": {
+                    "score_factor": 0.5,
+                    "type": "reps",
+                    "target_reps": 10,
+                    "target_rom": "null"
+                },
+                "ui_elements": [
+                    "timer",
+                    "repsCounter"
+                ],
+                "instruction_video": "SkaterHops",
+                "voice_intro": "exerciseIntro_SkaterHops_40"
+            },
+            "feedback": {
+                "NotImplemented": 0.75
+            },
+            "total_score": 50.555557,
+            "performance_score": 90.0,
+            "technique_score": 11.111112,
+            "reps_performed": 9,
+            "reps_performed_perfect": 2,
+            "session_id": "15gRuNFXYD2rIqFJ",
+            "user_data": {
+                "age": 30,
+                "gender": "Male"
+            }
+        },
+        {
+            "activity_type": "ProgramWorkout",
+            "start_time": "2024-12-24T10:49:44+02:00",
+            "end_time": "2024-12-24T10:50:17+02:00",
+            "exercise_info": {
+                "pretty_name": "",
+                "exercise_id": "HighKnees",
+                "total_time": 33,
+                "score_params": {
+                    "score_factor": 0.5,
+                    "type": "reps",
+                    "target_reps": 10,
+                    "target_rom": "null"
+                },
+                "ui_elements": [
+                    "timer",
+                    "repsCounter"
+                ],
+                "instruction_video": "HighKnees",
+                "voice_intro": "exerciseIntro_HighKnees_30"
+            },
+            "feedback": {
+                "HighKneesRaise": 0.5
+            },
+            "total_score": 65.0,
+            "performance_score": 80.0,
+            "technique_score": 50.0,
+            "reps_performed": 8,
+            "reps_performed_perfect": 5,
+            "session_id": "15gRuNFXYD2rIqFJ",
+            "user_data": {
+                "age": 30,
+                "gender": "Male"
+            }
+        },
+        {
+            "activity_type": "ProgramWorkout",
+            "start_time": "2024-12-24T10:50:17+02:00",
+            "end_time": "2024-12-24T10:50:52+02:00",
+            "exercise_info": {
+                "pretty_name": "",
+                "exercise_id": "SkiJumps",
+                "total_time": 35,
+                "score_params": {
+                    "score_factor": 0.5,
+                    "type": "reps",
+                    "target_reps": 10,
+                    "target_rom": "null"
+                },
+                "ui_elements": [
+                    "timer",
+                    "repsCounter"
+                ],
+                "instruction_video": "SkiJumps",
+                "voice_intro": "exerciseIntro_SkiJumps_30"
+            },
+            "feedback": {
+                "SkiJumpsLanding": 0.5
+            },
+            "total_score": 38.75,
+            "performance_score": 40.0,
+            "technique_score": 37.5,
+            "reps_performed": 4,
+            "reps_performed_perfect": 1,
+            "session_id": "15gRuNFXYD2rIqFJ",
+            "user_data": {
+                "age": 30,
+                "gender": "Male"
+            }
+        },
+        {
+            "activity_type": "ProgramWorkout",
+            "start_time": "2024-12-24T10:50:52+02:00",
+            "end_time": "2024-12-24T10:51:25+02:00",
+            "exercise_info": {
+                "pretty_name": "",
+                "exercise_id": "SquatRegular",
+                "total_time": 33,
+                "score_params": {
+                    "score_factor": 0.5,
+                    "type": "reps",
+                    "target_reps": 6,
+                    "target_rom": "null"
+                },
+                "ui_elements": [
+                    "timer",
+                    "repsCounter",
+                    "gaugeOfMotion"
+                ],
+                "instruction_video": "SquatRegular",
+                "voice_intro": "exerciseIntro_SquatRegular_30"
+            },
+            "feedback": {
+                "HipCreaseDepth": 0.5,
+                "KneesCollapsingInward": 0.0,
+                "KneesCollapsingOutward": 0.0
+            },
+            "total_score": 66.66667,
+            "performance_score": 66.66667,
+            "technique_score": 66.666664,
+            "reps_performed": 4,
+            "reps_performed_perfect": 3,
+            "session_id": "15gRuNFXYD2rIqFJ",
+            "user_data": {
+                "age": 30,
+                "gender": "Male"
+            }
+        },
+        {
+            "activity_type": "ProgramWorkout",
+            "start_time": "2024-12-24T10:51:25+02:00",
+            "end_time": "2024-12-24T10:51:59+02:00",
+            "exercise_info": {
+                "pretty_name": "",
+                "exercise_id": "LungeSideRight",
+                "total_time": 34,
+                "score_params": {
+                    "score_factor": 0.5,
+                    "type": "reps",
+                    "target_reps": 4,
+                    "target_rom": "null"
+                },
+                "ui_elements": [
+                    "timer",
+                    "repsCounter",
+                    "gaugeOfMotion"
+                ],
+                "instruction_video": "LungeSideRight",
+                "voice_intro": "exerciseIntro_LungeSideRight_30"
+            },
+            "feedback": {},
+            "total_score": 0.0,
+            "performance_score": 0.0,
+            "technique_score": 0.0,
+            "reps_performed": 0,
+            "reps_performed_perfect": 0,
+            "session_id": "15gRuNFXYD2rIqFJ",
+            "user_data": {
+                "age": 30,
+                "gender": "Male"
+            }
+        },
+        {
+            "activity_type": "ProgramWorkout",
+            "start_time": "2024-12-24T10:51:59+02:00",
+            "end_time": "2024-12-24T10:52:33+02:00",
+            "exercise_info": {
+                "pretty_name": "",
+                "exercise_id": "LungeSideLeft",
+                "total_time": 34,
+                "score_params": {
+                    "score_factor": 0.5,
+                    "type": "reps",
+                    "target_reps": 4,
+                    "target_rom": "null"
+                },
+                "ui_elements": [
+                    "timer",
+                    "repsCounter",
+                    "gaugeOfMotion"
+                ],
+                "instruction_video": "LungeSideLeft",
+                "voice_intro": "exerciseIntro_LungeSideLeft_30"
+            },
+            "feedback": {},
+            "total_score": 12.5,
+            "performance_score": 25.0,
+            "technique_score": 0.0,
+            "reps_performed": 1,
+            "reps_performed_perfect": 1,
+            "session_id": "15gRuNFXYD2rIqFJ",
+            "user_data": {
+                "age": 30,
+                "gender": "Male"
+            }
+        },
+        {
+            "activity_type": "ProgramWorkout",
+            "start_time": "2024-12-24T10:52:33+02:00",
+            "end_time": "2024-12-24T10:53:06+02:00",
+            "exercise_info": {
+                "pretty_name": "",
+                "exercise_id": "SquatRegularStatic",
+                "total_time": 33,
+                "score_params": {
+                    "score_factor": 0.5,
+                    "type": "time",
+                    "target_time": 30,
+                    "target_rom": "null"
+                },
+                "ui_elements": [
+                    "timer",
+                    "gaugeOfMotion"
+                ],
+                "instruction_video": "SquatRegularStatic",
+                "voice_intro": "exerciseIntro_SquatRegularStatic_30"
+            },
+            "feedback": {},
+            "total_score": 0.0,
+            "performance_score": 0.0,
+            "technique_score": 0.0,
+            "time_in_position": 0.0,
+            "time_in_position_perfect": 0.0,
+            "peak_range_of_motion_score": 0.0,
+            "session_id": "15gRuNFXYD2rIqFJ",
+            "user_data": {
+                "age": 30,
+                "gender": "Male"
+            }
+        },
+        {
+            "activity_type": "ProgramWorkout",
+            "start_time": "2024-12-24T10:53:06+02:00",
+            "end_time": "2024-12-24T10:53:40+02:00",
+            "exercise_info": {
+                "pretty_name": "",
+                "exercise_id": "StandingObliqueCrunches",
+                "total_time": 34,
+                "score_params": {
+                    "score_factor": 0.5,
+                    "type": "reps",
+                    "target_reps": 10,
+                    "target_rom": "null"
+                },
+                "ui_elements": [
+                    "timer",
+                    "repsCounter"
+                ],
+                "instruction_video": "StandingObliqueCrunches",
+                "voice_intro": "exerciseIntro_StandingObliqueCrunches_30"
+            },
+            "feedback": {},
+            "total_score": 0.0,
+            "performance_score": 0.0,
+            "technique_score": 0.0,
+            "reps_performed": 0,
+            "reps_performed_perfect": 0,
+            "session_id": "15gRuNFXYD2rIqFJ",
+            "user_data": {
+                "age": 30,
+                "gender": "Male"
+            }
+        },
+        {
+            "activity_type": "ProgramWorkout",
+            "start_time": "2024-12-24T10:53:40+02:00",
+            "end_time": "2024-12-24T10:54:13+02:00",
+            "exercise_info": {
+                "pretty_name": "",
+                "exercise_id": "PlankHighStatic",
+                "total_time": 33,
+                "score_params": {
+                    "score_factor": 0.5,
+                    "type": "time",
+                    "target_time": 30,
+                    "target_rom": "null"
+                },
+                "ui_elements": [
+                    "timer"
+                ],
+                "instruction_video": "PlankHighStatic",
+                "voice_intro": "exerciseIntro_PlankHighStatic_30"
+            },
+            "feedback": {
+                "PlankHipsSag": 0.0,
+                "PlankHipsPike": 0.0,
+                "PlankKneesOnFloor": 0.0
+            },
+            "total_score": 0.0,
+            "performance_score": 0.0,
+            "technique_score": 0.0,
+            "time_in_position": 0.0,
+            "time_in_position_perfect": 0.0,
+            "peak_range_of_motion_score": 0.0,
+            "session_id": "15gRuNFXYD2rIqFJ",
+            "user_data": {
+                "age": 30,
+                "gender": "Male"
+            }
+        },
+        {
+            "activity_type": "ProgramWorkout",
+            "start_time": "2024-12-24T10:54:13+02:00",
+            "end_time": "2024-12-24T10:54:49+02:00",
+            "exercise_info": {
+                "pretty_name": "",
+                "exercise_id": "TuckHold",
+                "total_time": 36,
+                "score_params": {
+                    "score_factor": 0.5,
+                    "type": "time",
+                    "target_time": 30,
+                    "target_rom": "null"
+                },
+                "ui_elements": [
+                    "timer",
+                    "gaugeOfMotion"
+                ],
+                "instruction_video": "TuckHold",
+                "voice_intro": "exerciseIntro_TuckHold_30"
+            },
+            "feedback": {},
+            "total_score": 26.666668,
+            "performance_score": 53.333336,
+            "technique_score": 0.0,
+            "time_in_position": 16.0,
+            "time_in_position_perfect": 16.0,
+            "peak_range_of_motion_score": 1.0,
+            "session_id": "15gRuNFXYD2rIqFJ",
+            "user_data": {
+                "age": 30,
+                "gender": "Male"
+            }
+        },
+        {
+            "activity_type": "ProgramWorkout",
+            "start_time": "2024-12-24T10:54:49+02:00",
+            "end_time": "2024-12-24T10:55:23+02:00",
+            "exercise_info": {
+                "pretty_name": "",
+                "exercise_id": "PlankHighShoulderTaps",
+                "total_time": 34,
+                "score_params": {
+                    "score_factor": 0.5,
+                    "type": "reps",
+                    "target_reps": 8,
+                    "target_rom": "null"
+                },
+                "ui_elements": [
+                    "timer",
+                    "repsCounter"
+                ],
+                "instruction_video": "PlankHighShoulderTaps",
+                "voice_intro": "exerciseIntro_PlankHighShoulderTaps_30"
+            },
+            "feedback": {
+                "PalmReachShoulder": 0.0,
+                "HipsRotating": 0.0,
+                "PlankKneesOnFloor": 0.0
+            },
+            "total_score": 29.166666,
+            "performance_score": 25.0,
+            "technique_score": 33.333332,
+            "reps_performed": 2,
+            "reps_performed_perfect": 1,
+            "session_id": "15gRuNFXYD2rIqFJ",
+            "user_data": {
+                "age": 30,
+                "gender": "Male"
+            }
+        }
+    ]
+}
